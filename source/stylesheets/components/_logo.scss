@@ -1,0 +1,10 @@
+// logo
+//
+.logo-responsive {
+  width: 40vw;
+}
+@media(max-width: 768px) {
+  .logo-responsive {
+    width: 55vw;
+  }
+}
