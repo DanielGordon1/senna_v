@@ -9,8 +9,18 @@
        font-url('fonts/HelveticaNeue-Light.woff') format('woff'),
        font-url('fonts/HelveticaNeue-Light.ttf') format('truetype')
 }
-$my-font: "Helvetica Neue Light";
+$helvetica-neue: "Helvetica Neue Light";
+
+@font-face {
+  font-family: "Copperplate";
+  src: font-url('fonts/copperplate.eot');
+  src: font-url('fonts/copperplate.eot?#iefix') format('embedded-opentype'),
+       font-url('fonts/copperplate.woff') format('woff'),
+       font-url('fonts/copperplate.ttf') format('truetype')
+}
+$copperplate: "Copperplate";
+
 
 // Define fonts for body and headers
-$body-font: $my-font, "Helvetica", "sans-serif";
-$headers-font: $my-font, "Helvetica", "sans-serif";
+$body-font: $helvetica-neue, "Helvetica", "sans-serif";
+$headers-font: $helvetica-neue, "Helvetica", "sans-serif";
