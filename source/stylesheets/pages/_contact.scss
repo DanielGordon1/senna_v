@@ -4,6 +4,13 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  .contact-content {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
   h1 {
     font-size: 26px;
     margin-bottom: 30px;
